@@ -21,7 +21,7 @@ servers:
   - url: https://api.ingka.ppe.ikeadt.com/om/order-management/eu/retrieve-order
     description: API Gateway STAGE
 paths:
-  "/{region}/retrieve-order":
+  /{region}/retrieve-order:
     post:
       summary: retrieve order Info for the Order
       tags:
